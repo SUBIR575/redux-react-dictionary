@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+table,th, td {
+  border: 1px solid rgb(194, 181, 1);
+  border-collapse: collapse;
+  font-size: 16px;
+}
+ td {
+  padding: 5px;
+  text-align: left;
+}
+table{
+  width: 800px;
+}
+.search{
+  width: 200px;
+  background-color: azure;
+  border: 3px solid rosybrown;
+  height: 30px;
+  border-radius: 5px;
+}
+.btn{
+  margin-top: 15px;
+  background-color: teal;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 3px;
+}
+th{
+  min-width: 200px;
+}
