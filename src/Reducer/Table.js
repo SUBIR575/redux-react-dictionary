@@ -11,6 +11,7 @@ const Table= (state=initialstate,action)=>{
       return{...state,
         table:[...state.table,word]
       }
+      
     
   
     default:
